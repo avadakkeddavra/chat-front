@@ -1,0 +1,15 @@
+section.dashboard{
+    width: 80%;
+    margin: 200px auto;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.messages{
+    .your-message{
+        float: left;
+    }
+    .oponent-message{
+        float: right;
+    }
+}

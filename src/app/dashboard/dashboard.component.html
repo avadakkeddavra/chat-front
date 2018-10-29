@@ -1,0 +1,38 @@
+<section class="dashboard z-depth-3">
+  {{user.id}}
+  <div class="messages">
+    <div class="your-message">
+      <div class="message-body">
+        <div class="sender left">
+          alex  
+        </div>
+        <div class="message left">
+            <div class="chip">Hello</div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="oponent-message">
+        <div class="message-body">
+          <div class="sender right">
+            Vasya  
+          </div>
+          <div class="message left">
+              <div class="chip">Privet</div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+  </div>
+  <div class="clearfix"></div>
+
+  <div class="input-field">
+      <textarea class="materialize-textarea" #message></textarea>
+      <label for="">Message</label>
+  </div>
+
+  <button class="btn" (click)="send(message.value)">Send</button>
+</section>

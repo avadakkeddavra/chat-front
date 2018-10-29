@@ -1,0 +1,14 @@
+<section class="login z-depth-2">
+  <h5>Login</h5>
+  <form action="" #loginForm="ngForm">
+    <div class="input-field">
+      <input type="email" name="email" ngModel>
+      <label for="">Email</label>
+    </div>
+    <div class="input-field">
+      <input type="password" name="password" ngModel>
+      <label for="">Password</label>
+    </div>
+    <button type="button" class="btn" (click)="login(loginForm)">Login</button>
+  </form>
+</section>
